@@ -127,7 +127,7 @@ double CountRPN(std::string rpn) {
 	{
 		try
 		{
-			double temp = stoi(v_rpn[i]);
+			double temp = stod(v_rpn[i]);
 			operands.push(temp);
 		}
 		catch (std::invalid_argument&)
